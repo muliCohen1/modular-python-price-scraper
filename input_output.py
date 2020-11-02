@@ -14,3 +14,4 @@ def write_file(title, price):
         write_value.close()
     except IOError:
         print("Writing error occurred" + IOError)
+# 

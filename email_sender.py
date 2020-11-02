@@ -1,5 +1,5 @@
 import smtplib
-
+# 
 def send(message, url):
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()

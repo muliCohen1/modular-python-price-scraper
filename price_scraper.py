@@ -27,7 +27,7 @@ class Product:
         read_value = input_output.read_file(title)
         if read_value != price:
             input_output.write_file(title, price)
-            # email_sender.send([title, price, read_value], self.url)
+            email_sender.send([title, price, read_value], self.url)
         print(title + " is only " + price)
 
 while True:
